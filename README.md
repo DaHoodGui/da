@@ -180,7 +180,7 @@ until game:IsLoaded()
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xwel33/hud/main/gui"))() --you can go into the github link and copy all of it and modify it for yourself.
 local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/xwel33/hud/main/Notification"))()
 Library.theme.accentcolor = Color3.fromRGB(0, 204, 255)
-local Window3 = Library:CreateWindow("Sanky Box ♠", Vector2.new(600, 400))
+local Window3 = Library:CreateWindow("Sanky Box ♠", Vector2.new(100, 200))
 
 local GetService =
     setmetatable(
